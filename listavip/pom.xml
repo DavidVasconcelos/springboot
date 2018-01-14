@@ -28,6 +28,17 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.40</version>
 		</dependency>
-
+		<!-- Spring Devtools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>1.4.2.RELEASE</version>
+		</dependency>
+		<!--Enviar email -->
+		<dependency>
+			<groupId>br.com.alura.enviadorEmail</groupId>
+			<artifactId>enviadorEmail</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
